@@ -1,0 +1,2 @@
+seleniumbase~=4.24.11
+behave~=1.2.6
