@@ -8,7 +8,7 @@ BaseCase.main(__name__, __file__)
 
 class MarketsTestClass(BaseCase):
 
-    @parameterized.expand([['CRO', 'BTC'], ['ZIP', 'USDT']])
+    @parameterized.expand([['CRO', 'BTC'], ['ZIL', 'USDT']])
     @pytest.mark.markets
     def test_markets_page_go_to_trade_page(self, main_token, base_token):
         self.maximize_window()
